@@ -10,6 +10,8 @@
 
 #laptop{
     font-size: 3.5rem;
+    color: rgb(98, 31, 127);
+    
 }
 
 #laptop:active{
@@ -37,10 +39,10 @@ header{
 nav{
     display: flex;
     width: 100%;
-    margin: auto;
+    
     padding: 20px 0;
     align-items: center;
-    justify-content: space-around ;
+    justify-content: space-around;
 }
 
 nav ul li{
@@ -182,6 +184,7 @@ hr{
  align-items: center;
  font-size: 1.5rem; 
  flex-wrap: wrap;
+ margin-bottom: 2rem;
  
  
  
@@ -197,7 +200,10 @@ hr{
 .projects{
     background-color: blue;
     position: relative;
-    margin-top: 1rem;
+    margin: 0 auto;
+
+    width: 75%;
+    
 }
 .projects p{
     position: relative;
@@ -205,3 +211,4 @@ hr{
     font-size: 2rem;
     
 }
+
